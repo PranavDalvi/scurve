@@ -1,3 +1,17 @@
+# This repo was forked to make changes to the code for my MSc C.S research project Malware-Detection-System-Using-Machine-Learning-and-Binary-Visualization
+
+- To install it on your system:
+1. Download the repo (unzip if downloaded as zip)
+2. cd in to the repo and run `pip install .`
+3. Make sure you have installed gcc or build-essential and python3-dev for ubuntu
+
+- Run example
+```bash
+binvis -c class -m hilbert -s 256 -t unrolled input.file output.png
+```
+
+## Thank you Aldo Cortesi for creating this amazing tool
+
 A collection of algorithms and visualisation tools related to space-filling
 curves.
 

@@ -9,4 +9,5 @@ setup(
         author_email = "aldo@corte.si",
         packages = ["scurve"],
         scripts = ["colormap", "cube", "drawcurve", "gray", "testpattern", "binvis"],
+        install_requires=["pillow","pycairo"],
 )

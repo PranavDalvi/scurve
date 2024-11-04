@@ -1,5 +1,6 @@
-import utils, math
+from . import utils
 
+import math
 
 def transform(entry, direction, width, x):
     assert x < 2**width
@@ -33,7 +34,7 @@ def entry(x):
     if x == 0:
         return 0
     else:
-        return utils.graycode(2*((x-1)/2))
+        return utils.graycode(2 * ((x - 1) // 2))
 
 
 def hilbert_point(dimension, order, h):
