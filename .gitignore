@@ -7,3 +7,5 @@ build
 tmp.*
 tmp
 .coverage
+scurve.egg-info/
+venv/

@@ -3,7 +3,7 @@
 - To install it on your system:
 1. Download the repo (unzip if downloaded as zip)
 2. cd in to the repo and run `pip install .`
-3. Make sure you have installed gcc or build-essential and python3-dev for ubuntu
+3. Make sure you have installed gcc, cmake, libcairo2-dev, pkg-config and python3-dev for linux (build-essential for ubuntu)
 
 - Run example
 ```bash
